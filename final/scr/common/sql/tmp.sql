@@ -21,9 +21,10 @@ create table question_info(
 
 -- ヒント情報テーブル
 create table hint_info(
-    hint_id int not null,
+    hint_id int not null AUTO_INCREMENT,
     question_id int not null,
     hint_content varchar(255),
     primary key (hint_id),
     foreign key (question_id) references question_info (question_id)
 );
+
