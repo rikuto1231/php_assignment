@@ -14,7 +14,7 @@
     <form name='form-login' action='/php_assignment/final/src/common/php/DB_reg.php' method='POST'>
 
         <span class="fontawesome-user"></span>
-        <input type="text" id="user" placeholder="名前" name="user_name>
+        <input type="text" id="user" placeholder="名前" name="user_name">
 
         <span class="fontawesome-email"></span>
         <input type="text" id="email" placeholder="メールアドレス" name="email">
