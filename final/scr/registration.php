@@ -11,7 +11,7 @@
     <div class="slide-in">水平思考クイズ</div>
 
 <div id="login">
-    <form name='form-login' action='/php_assignment/final/src/common/php/DB_reg.php' method='POST'>
+    <form name='form-login' action='/php_assignment/final/scr/common/php/DB_reg.php' method='POST'>
 
         <span class="fontawesome-user"></span>
         <input type="text" id="user" placeholder="名前" name="user_name">
