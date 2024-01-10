@@ -21,9 +21,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // パスワードの照合
         if ($user && password_verify($pass, $user['password'])) {
 
+
+            // ユーザ情報をセッションで保存
+            $_SESSION['user_name'] = $user['user_name'];
+            $_SESSION['mail_address'] = $user['mail_address'];
+            $_SESSION['password'] = $user['password'];
+
+
             // ログイン後の遷移先にリダイレクト
             header('Location: /php_assignment/final/src/home.php');
             exit();
+            
         } else {
             // ログイン失敗時の処理
             echo "メールアドレスまたはパスワードが正しくありません。";
