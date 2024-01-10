@@ -40,10 +40,10 @@ class DatabaseConnection {
 
 function getDatabaseConnection() {
     // 環境に合わせて後々変更予定
-    $host = 'mysql216.phy.lolipop.lan';
-    $dbname = 'LAA1517424-aso2201216';
-    $user = 'LAA1517424';
-    $pass = 'Pass0407';
+    $host = 'mysql214.phy.lolipop.lan';
+    $dbname = 'LAA1517437-shop';
+    $user = 'LAA1517437';
+    $pass = 'Pass1015';
 
     $dbConnection = new DatabaseConnection($host, $dbname, $user, $pass);
     return $dbConnection->getPDO(); // 接続を返す
