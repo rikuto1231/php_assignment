@@ -14,7 +14,7 @@ echo '<div id="header_center">';
     // 2層目の中央div
     echo '<div id="header_in_center">';
 
-    echo '<a href="#"><img id="signup_img" src="common/img/logo1.png" width="100px" height="100px"></a>';
+    echo '<a href="#"><img id="signup_img" src="common/img/logo1.png" width="150px" height="150px"></a>';
 
     echo '</div>';
 echo '</div>';
