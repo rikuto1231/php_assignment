@@ -6,7 +6,12 @@
 echo '<div id="header_top">
 <p>マイページ</p>
 <p>名前  様</p>
+</div>';
+
+//headerの2層目。メニュー部分
+echo '<div id="header_center">
 
 </div>';
+
 
 ?>

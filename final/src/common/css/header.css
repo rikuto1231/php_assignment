@@ -14,3 +14,11 @@
     margin-right: 40px;
     font-size: 20px;
 }
+
+#header_center{
+    background-image: url('../img/flower_h.jpg');
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+}
