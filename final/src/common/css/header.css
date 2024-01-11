@@ -25,9 +25,10 @@
 
     background-color: #fff;
     background-image:
-    radial-gradient(closest-side, transparent 98%, rgb(56, 125, 148) 100%),
-    radial-gradient(closest-side, transparent 98%, #ffffff 100%);
-    /* background-size: 60px 60px; */
+        radial-gradient(closest-side,
+        transparent 98%, rgba(194, 168, 204, 1) 100%),
+        radial-gradient(closest-side,
+        transparent 98%, rgba(194, 168, 204, 1) 100%);
     background-position: 0 0, 30px 30px;
     
 }
