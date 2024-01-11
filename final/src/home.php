@@ -9,9 +9,11 @@
 <body>
     <header>
     <!-- 読み込み方式 -->
+        <?php require '/common/css/header.css' ?>
     </header>
     
 
+    <h1>テスト出力</h1>
 
 
     <footer>
