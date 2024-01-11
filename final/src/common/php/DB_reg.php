@@ -15,8 +15,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     try {
-        // ユーザテーブルにデータを挿入
+        // メルアド重複判定処理入れる
+        
 
+        // ユーザテーブルにデータを挿入
         $stmt = $pdo->prepare("
         INSERT INTO user_info (mail_address, password, user_name) VALUES (:mail_address, :password, :user_name)
     ");
