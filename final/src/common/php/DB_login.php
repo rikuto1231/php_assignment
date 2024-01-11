@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require '/php_assignment/final/src/common/php/DB.php';
+require 'php_assignment/final/src/common/php/DB.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 入力されたメールアドレスとパスワードを取得
