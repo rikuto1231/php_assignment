@@ -29,3 +29,10 @@
     background-size: 20px 20px;
     
 }
+
+#header_in_center{
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    background-color: #bc1717;
+}

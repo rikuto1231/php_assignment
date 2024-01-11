@@ -9,9 +9,12 @@ echo '<div id="header_top">
 </div>';
 
 //headerの2層目。メニュー部分
-echo '<div id="header_center">
+echo '<div id="header_center">';
 
-</div>';
+// 2層目の中央div
+echo '<div id="header_in_center">';
+
+echo '</div>';
 
 
 ?>
