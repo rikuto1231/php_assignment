@@ -6,7 +6,7 @@ require 'DB.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 入力されたメールアドレスとパスワードを取得
     $mail = $_POST['email'];
-    $pass = $_POST['pass'];
+    $pass = password_hash($_POST['pass'], PASSWORD_DEFAULT);
     $name = $_POST['user_name'];
 
 
