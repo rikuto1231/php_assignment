@@ -8,8 +8,8 @@
 }
 
 #header_top p{
-    font-size: 20px;
-    color: #fff;
+    display : inline-block;
+    color: #ffffff;
     right: 0;
     margin-left: 10px;
 }
