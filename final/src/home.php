@@ -10,7 +10,7 @@
 <body>
     <header>
     <!-- 読み込み方式 -->
-        <?php require '/common/php/header.php'; ?>
+        <?php require 'common/php/header.php'; ?>
     </header>
     
 
