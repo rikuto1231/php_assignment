@@ -6,7 +6,7 @@
 echo '<div id="header_top">
 <p>名前様</p>
 <p>マイページ</p>
-<h1>テスト</h1>
+<h3>テスト２</h3>
 
 </div>';
 
