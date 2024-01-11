@@ -7,9 +7,9 @@
     background-color: rgba(27, 20, 20, 0.637);
 }
 
-#header_top p{
+#header_top p {
     text-align: right;
-    display : inline-block;
+    float: right;
     color: #ffffff;
     margin-right: 20px;
 }
