@@ -16,9 +16,7 @@
 }
 
 #header_center{
-    /* 画像はmenuができてから合わせる */
-    /* background-image: url('../img/flower_h.jpg'); 
-    background-size: cover; */
+    position: relative;
     width: 100%;
     height: 70px;
     top: 0;
@@ -36,4 +34,9 @@
     width: 200px;
     height: 100%;
     background-color: #bc1717;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
