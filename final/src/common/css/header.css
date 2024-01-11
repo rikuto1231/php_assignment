@@ -17,6 +17,7 @@
 
 #header_center{
     background-image: url('../img/flower_h.jpg');
+    background-size: cover;
     width: 100%;
     height: 50px;
     top: 0;
