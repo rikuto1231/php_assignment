@@ -23,9 +23,9 @@
     height: 50px;
     top: 0;
 
-    background-color: #c2a8cc;
-    background-image: linear-gradient(90deg, rgba(20, 20, 25, .5) 50%, transparent 50%),
-                    linear-gradient(rgba(20, 20, 25, .5) 50%, transparent 50%);
-    background-size: 10px 10px;
+    background-color: #db973e;
+    background-image: linear-gradient(90deg, rgba(103, 103, 119, 0.5) 50%, transparent 50%),
+                    linear-gradient(rgba(255, 255, 255, 0.5) 50%, transparent 50%);
+    background-size: 20px 20px;
     
 }
