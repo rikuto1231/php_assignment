@@ -8,18 +8,13 @@ body {
     margin: 0;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+#quiz_search{
+    width: 100%;
+    height: 80px;
+    text-align: center;
 }
 
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
+
 
 .btn,
 a.btn,
@@ -45,14 +40,7 @@ button.btn {
   border-radius: 0.5rem;
 }
 
-/*背景*/
-body {
-  padding: 30px;
 
-  text-align: center;
-
-  background: #000;
-}
 
 .btn-border-gradient-wrap {
   display: inline-block;
