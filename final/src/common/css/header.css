@@ -30,12 +30,38 @@
 
 #header_center p {
     text-align: center; 
-    font-size: 40px;
+    font-size: 35px;
     float: none; 
     display: inline-block; 
     color: #ffffff;
     margin-right: 20px;
     white-space: nowrap; 
+}
+
+#header_in_left{
+    text-align: center;
+    width: 200px;
+    height: 100%;
+
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+#header_in_right{
+    text-align: center;
+    width: 200px;
+    height: 100%;
+
+
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
 }
 
 #header_in_center{
@@ -47,10 +73,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    
+
 }
 
 #signup_img {
-    position: absolute;
+    position: relative;
     top: 30%;
     transform: translateY(-50%);
 }
