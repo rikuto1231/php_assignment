@@ -14,8 +14,14 @@
     </header>
     
 
+    <!-- 問題表示部分 -->
+    <?php require 'common/php/quiz_search.php'; ?>
 
-
+    <div id="quiz_body">
+        <div id="quiz_area">
+            
+        </div>
+    </div>
 
     <footer>
     <!-- 読み込み方式 -->
