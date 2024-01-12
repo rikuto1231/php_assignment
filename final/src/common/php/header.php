@@ -12,7 +12,7 @@ echo '<div id="header_top">
 echo '<div id="header_center">';
 
 
-    echo '<div id="header_in_right">';
+    echo '<div id="header_in_left">';
 
     echo '<p>ルール確認</p>';
 
@@ -25,7 +25,11 @@ echo '<div id="header_center">';
 
     echo '</div>';
 
+    echo '<div id="header_in_right">';
+
     echo '<p>出題する</p>';
+
+    echo '</div>';
 
 echo '</div>';
 
