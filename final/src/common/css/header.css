@@ -29,8 +29,13 @@
 }
 
 #header_center p {
-    font-size: 30px;
-    display: inline-block;
+    text-align: center; 
+    font-size: 40px;
+    float: none; 
+    display: inline-block; 
+    color: #ffffff;
+    margin-right: 20px;
+    white-space: nowrap; 
 }
 
 #header_in_center{
