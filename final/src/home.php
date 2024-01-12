@@ -14,7 +14,12 @@
     </header>
     
 
-    <h1>テスト出力</h1>
+    <!-- 問題検索部分 -->
+    <div id=quiz_search>
+        <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
+        <a href="" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">問題に挑戦</span></a>
+        </div>
+    </div>
 
 
     <footer>
