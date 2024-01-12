@@ -10,14 +10,19 @@ body {
 
 /* quiz_search.php側で出力される要素CSS */
 
-#quiz_body{
+#quiz_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: auto;
     text-align: center;
+    background-color: #091d6e;
 }
 
-#quiz_area{
+#quiz_area {
     width: 80%;
     height: auto;
     text-align: center;
+    background-color: #ffffff;
 }
