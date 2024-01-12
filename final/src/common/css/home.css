@@ -9,6 +9,7 @@ body {
 }
 
 #quiz_search{
+    margin-top: 10px;
     width: 100%;
     height: 80px;
     text-align: center;
