@@ -11,7 +11,6 @@ echo '<div id="header_top">
 //headerの2層目。メニュー部分
 echo '<div id="header_center">';
 
-
     echo '<div id="header_in_left">';
 
     echo '<p>ルール確認</p>';
