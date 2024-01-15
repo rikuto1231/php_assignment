@@ -20,9 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo '<div id="quiz_body">';
         echo '<div id="quiz_area">';
 
+        alert($result);
+
         echo '<h1>確認</h1>';
         foreach($result as $row){
                 echo '<div class="quiz_out">';
+
                     echo '<p>'.$row['title'].'</p>';
                 echo '</div>';
         }
