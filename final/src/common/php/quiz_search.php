@@ -19,14 +19,16 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         // 表示を整えて出力
 
         echo '<div id="quiz_body">';
-            echo '<div id="quiz_area">';
-                echo '<div class="quiz_out">';
-                    
-                echo '</div>';
-            echo '</div>';
-        echo '</div>';
+        echo '<div id="quiz_area">';
 
-        // 
+        foreach($result as $row){
+                echo '<div class="quiz_out">';
+                    echo '<p>'.$row['title'].'</p>';
+                echo '</div>';
+        }
+        
+        echo '</div>';
+        echo '</div>';
 
 
     } catch (PDOException $e) {
