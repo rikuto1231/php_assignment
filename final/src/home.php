@@ -14,12 +14,9 @@
     </header>
 
 
-
-
-<!-- 最新 -->
-
     <!-- 問題表示部分 -->
     <?php require 'common/php/quiz_search.php'; ?>
+
     
     <footer>
     <!-- 読み込み方式 -->

@@ -21,21 +21,16 @@ body {
 }
 
 #quiz_area {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 80%;
     height: auto;
     text-align: center;
     background-color: #ffffff;
 }
 
-.quiz_out{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.quiz_out {
     width: 70%;
     height: 100px;
     text-align: center;
     background-color: #b42525;
+    margin: auto; /* 追加 */
 }

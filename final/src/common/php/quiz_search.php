@@ -22,8 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
         foreach($result as $row){
                 echo '<div class="quiz_out">';
-
-                    echo '<p>'.$row['title'].'</p>';
+                    echo '<h2><a href="#">'.$row['title'].'</a></h2>';
                 echo '</div>';
         }
 
