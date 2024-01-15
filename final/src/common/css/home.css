@@ -21,6 +21,9 @@ body {
 }
 
 #quiz_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     height: auto;
     text-align: center;
@@ -28,6 +31,9 @@ body {
 }
 
 .quiz_out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 70%;
     height: 100px;
     text-align: center;
