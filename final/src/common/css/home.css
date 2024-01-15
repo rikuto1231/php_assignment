@@ -26,3 +26,10 @@ body {
     text-align: center;
     background-color: #ffffff;
 }
+
+.quiz_out{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    background-color: #b42525;
+}
