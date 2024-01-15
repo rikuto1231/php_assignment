@@ -17,16 +17,16 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         // 表示を整えて出力
-
         echo '<div id="quiz_body">';
         echo '<div id="quiz_area">';
 
+        echo '<h1>確認</h1>';
         foreach($result as $row){
                 echo '<div class="quiz_out">';
                     echo '<p>'.$row['title'].'</p>';
                 echo '</div>';
         }
-        
+
         echo '</div>';
         echo '</div>';
 
