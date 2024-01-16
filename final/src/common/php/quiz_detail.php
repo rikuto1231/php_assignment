@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo'</div>';
         echo '</div>';
 
-        echo '<button id="answer_btn" onclick="answer()">答えを表示</button>';
+        echo '<button class="answer_btn" onclick="answer()">答えを表示</button>';
         
 
 
