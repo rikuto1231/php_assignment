@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
         // 取得した問題の情報を使って表示
         echo '<div id="output_all">';
-        echo '<div id="output_area">';
+        echo '<div id="output_title">';
         echo '<h2>'.$result['title'].'</h2>';
         echo '</div>';
 

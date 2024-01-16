@@ -18,9 +18,9 @@ body{
     text-align: center;
 }
 
-#output_area{
+#output_title{
     width: 80%;
-    height: 30px;
+    height: auto;
     text-align: center;
 }
 
