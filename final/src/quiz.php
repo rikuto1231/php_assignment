@@ -11,7 +11,7 @@
 
     <script>
         function answer() {
-            document.getElementById("answer").style.display = "block";
+            document.getElementById("output_answer").style.display = "block";
         }
     </script>
 
