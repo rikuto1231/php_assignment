@@ -9,6 +9,15 @@ body{
     margin: 0;
 }
 
+#output_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
 #output_area{
     width: 80%;
     height: 30px;
