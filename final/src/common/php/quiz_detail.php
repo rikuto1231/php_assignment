@@ -25,11 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         // 取得した問題の情報を使って表示
         echo '<div id="output_all">';
         echo '<div id="output_title">';
-        echo '<h2>'.$result['title'].'</h2>';
+        echo '<h1>'.$result['title'].'</h1>';
         echo '</div>';
 
         echo '<div id="output_detail">';
-        echo '<p>'.$result['content'].'</p>';
+        echo '<h3>'.$result['content'].'</h3>';
         echo'</div>';
         echo '</div>';
         
