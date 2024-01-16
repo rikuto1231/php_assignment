@@ -13,9 +13,8 @@
         <?php require 'common/php/header.php'; ?>
     </header>
 
-
-    <!-- 問題表示部分 -->
-    <?php require 'common/php/quiz_search.php'; ?>
+    <!-- 問題詳細出力 -->
+    <?php require 'common/php/quiz_detail.php'; ?>
 
 
     <footer>
