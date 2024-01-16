@@ -18,6 +18,11 @@
 
 
     <div id="output_area">
+        <h2>タイトル</h2>
+    </div>
+
+    <div id="output_detail">
+        <p>詳細</p>
     </div>
 
 

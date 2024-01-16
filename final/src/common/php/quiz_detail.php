@@ -23,8 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         }
 
         // 取得した問題の情報を使って表示
-
         
+        
+
+
 
     } catch (PDOException $e) {
         die('Error: ' . $e->getMessage());

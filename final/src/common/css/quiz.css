@@ -11,6 +11,12 @@ body{
 
 #output_area{
     width: 80%;
-    height: auto;
+    height: 30px;
     text-align: center;
+}
+
+#output_detail{
+    width: 80%;
+    height: auto;
+    margin-top:10px;
 }
