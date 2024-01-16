@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // 問題取得処理
     try {
         $pdo = getDatabaseConnection();
-    
+
         $sql = "SELECT * FROM question_info";
 
         $stmt = $pdo->query($sql);
