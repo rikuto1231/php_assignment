@@ -125,7 +125,7 @@ body {
 
 
 #output_answer{
-    display: block;
+    display: none;
     width: 80%;
     height: auto;
 }
