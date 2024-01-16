@@ -1,5 +1,4 @@
-
-body{
+body {
     background-image: url('../img/wall.jpg');
     background-size: cover;
     width: 100%;
@@ -9,23 +8,37 @@ body{
     margin: 0;
 }
 
-#output_all{
+#output_all {
     display: flex;
+    flex-direction: column; /* 縦方向に配置 */
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
     text-align: center;
+
 }
 
-#output_title{
+#output_title {
     width: 80%;
     height: auto;
     text-align: center;
+    margin-top:40px;
+    color:#dcd549;
+    background-color:#000000ab;
+
 }
 
-#output_detail{
+#output_detail {
+
     width: 80%;
     height: auto;
-    margin-top:10px;
+    margin-top: 10px;
+    color:#000000;
+    margin: 2em auto;
+	padding:2em;
+	border-left:double 8px #f9ff00;
+	border-right:double 8px #ebde34;
+	background-color:#ffffffa6;
+	box-shadow:3px 1px 4px rgba(0, 0, 0, 0.2);
 }
