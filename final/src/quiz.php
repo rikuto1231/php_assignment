@@ -8,6 +8,13 @@
     <title>水平思考クイズサイト</title>
 </head>
 <body>
+
+    <script>
+        function answer() {
+            document.getElementById("answer").style.display = "block";
+        }
+    </script>
+
     <header>
     <!-- 読み込み方式 -->
         <?php require 'common/php/header.php'; ?>

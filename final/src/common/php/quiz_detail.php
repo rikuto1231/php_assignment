@@ -24,16 +24,26 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
         // 取得した問題の情報を使って表示
         echo '<div id="output_all">';
-        echo '<div id="output_title">';
-        echo '<h1>'.$result['title'].'</h1>';
+            echo '<div id="output_title">';
+                echo '<h1>'.$result['title'].'</h1>';
+            echo '</div>';
+
+            echo '<div id="output_detail">';
+                echo '<h2>'.$result['content'].'</h2>';
+            echo'</div>';
+
+            echo '<button class="answer_btn" onclick="answer()">答えを表示</button>';
+
+            echo '<div> id="output_answer"';
+                echo '<h2>'.$result['answer'].'</h2>';
+            echo '</div>';
         echo '</div>';
 
-        echo '<div id="output_detail">';
-        echo '<h2>'.$result['content'].'</h2>';
-        echo'</div>';
-        echo '</div>';
 
-        echo '<button class="answer_btn" onclick="answer()">答えを表示</button>';
+
+        //非表示状態の答え出力
+
+
         
 
 

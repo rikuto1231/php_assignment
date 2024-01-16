@@ -122,3 +122,10 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+#output_answer{
+    display: block;
+    width: 80%;
+    height: auto;
+}
