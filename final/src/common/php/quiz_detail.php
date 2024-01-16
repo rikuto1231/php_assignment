@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo '</div>';
 
         echo '<div id="output_detail">';
-        echo '<h3>'.$result['content'].'</h3>';
+        echo '<h2>'.$result['content'].'</h2>';
         echo'</div>';
         echo '</div>';
         
