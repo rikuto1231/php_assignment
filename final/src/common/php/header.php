@@ -1,4 +1,5 @@
-<?php
+<?php session_start();
+
 
 // heder内の要素を出力
 
