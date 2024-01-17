@@ -1,0 +1,14 @@
+form {
+    width: 60%;
+    margin: 0 auto; /* 水平方向中央配置のためのマージン */
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
