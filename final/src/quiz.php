@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <?php session_start(); ?>
 
     <header>
     <!-- 読み込み方式 -->

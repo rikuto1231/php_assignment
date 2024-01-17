@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             // ユーザ情報をセッションで保存
+            $_SESSION['user_id'] = $user['user_id'];
             $_SESSION['user_name'] = $user['user_name'];
             $_SESSION['mail_address'] = $user['mail_address'];
             $_SESSION['password'] = $user['password'];
