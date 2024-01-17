@@ -41,9 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
 
 
-        //非表示状態の答え出力
-
-
         
 
 

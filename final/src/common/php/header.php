@@ -26,7 +26,7 @@ echo '<div id="header_center">';
 
     echo '<div id="header_in_right">';
 
-    echo '<p>出題する</p>';
+    echo '<a href=question.php><p>出題する</p></a>';
 
     echo '</div>';
 
