@@ -20,7 +20,7 @@
         <input type="text" name="title" required><br>
 
         <label for="content">内容:</label>
-        <textarea name="content" rows="4" required></textarea><br>
+        <textarea name="content" rows="8" required></textarea><br>
 
         <label for="answer">答え:</label>
         <input type="text" name="answer" required><br>
