@@ -43,9 +43,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
         
 
-
-
-
     } catch (PDOException $e) {
         die('Error: ' . $e->getMessage());
     } finally {
