@@ -9,11 +9,6 @@
 </head>
 <body>
 
-    <script>
-        function answer() {
-            document.getElementById("output_answer").style.display = "block";
-        }
-    </script>
 
     <header>
     <!-- 読み込み方式 -->
@@ -24,6 +19,11 @@
     <?php require 'common/php/quiz_detail.php'; ?>
 
 
+    <script>
+        function answer() {
+            document.getElementById("output_answer").style.display = "block";
+        }
+    </script>
 
 
 
