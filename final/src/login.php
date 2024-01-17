@@ -7,6 +7,7 @@
     <title>水平思考クイズサイト</title>
 </head>
 <body>
+    <?php session_start(); ?>
 
     <div class="slide-in">水平思考クイズ</div>
 
