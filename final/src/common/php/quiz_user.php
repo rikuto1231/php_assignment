@@ -1,11 +1,13 @@
-<?php session_start();
+<?php
+// セッションが開始されていない場合のみ開始する
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 require 'DB.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-
     // ユーザID取得
-    session_start();
     if (isset($_SESSION["user_id"])) {
         $user_id = $_SESSION["user_id"];
 
@@ -44,5 +46,4 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo "ユーザーIDが取得できません。";
     }
 }
-
 ?>
