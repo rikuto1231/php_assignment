@@ -17,7 +17,7 @@
     </header>
 
     <h1>削除画面</h1>
-<?
+<?php
 
 require '/common/php/DB.php';
 
