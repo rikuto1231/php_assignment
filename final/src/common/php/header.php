@@ -4,7 +4,7 @@
 // 上別色用の部分化divを設定,名前とマイページ要素検討。
 echo '<div id="header_top">
 <p>マイページ</p>';
-echo '<p>'.$_SESSION['user_name'].'様</p>';
+echo '<p>名前様</p>';
 echo '</div>';
 
 //headerの2層目。メニュー部分
