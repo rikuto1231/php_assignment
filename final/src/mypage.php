@@ -17,7 +17,7 @@
     </header>
 
     <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-        <a href="question_up.php" class="btn btn-border-gradient">
+        <a href="home_up.php" class="btn btn-border-gradient">
             <span class="btn-text-gradient--gold">投稿問題の更新</span>
         </a>
     </div>
