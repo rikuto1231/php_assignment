@@ -7,6 +7,7 @@
     <title>水平思考クイズサイト</title>
 </head>
 <body>
+<? session_start();?>
 
     <div class="slide-in">水平思考クイズ</div>
 
@@ -26,5 +27,6 @@
 
 <a href="registration.php"><img id="signup_img" src="common/img/reg.png" width="280px" height="300px"></a>
     
+<? session_write_close();?>
 </body>
 </html>

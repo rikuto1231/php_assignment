@@ -35,9 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // データベース接続を閉じる（適宜修正）
         $pdo = null;
 
-        // セッションを破棄。ログイン時に情報は確保
-        session_destroy();
-
         // 登録が成功したら遷移先にリダイレクト
         header('Location: /php_assignment/final/src/login.php');
     } catch (PDOException $e) {
