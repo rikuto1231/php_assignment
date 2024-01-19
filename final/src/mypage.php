@@ -1,4 +1,4 @@
-<? session_start();?>
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,6 +15,7 @@
     <!-- 読み込み方式 -->
         <?php require 'common/php/header.php'; ?>
     </header>
+
 
     <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
         <a href="home_up.php" class="btn btn-border-gradient">
