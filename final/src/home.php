@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<? session_start();?>
+
     <header>
     <!-- 読み込み方式 -->
         <?php require 'common/php/header.php'; ?>
