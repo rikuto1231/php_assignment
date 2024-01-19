@@ -17,16 +17,29 @@
     </header>
 
 
-    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-        <a href="home_up.php" class="btn btn-border-gradient">
-            <span class="btn-text-gradient--gold">投稿問題の更新</span>
-        </a>
-    </div>
+    <div id="quiz_body">
+        <div id="quiz_area">
 
-    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-        <a href="home_delete.php" class="btn btn-border-gradient">
-            <span class="btn-text-gradient--gold">投稿問題の削除</span>
-        </a>
+                <div class="quiz_out">
+                    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
+                        <a href="home_up.php" class="btn btn-border-gradient">
+                            <span class="btn-text-gradient--gold">投稿問題の更新</span>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="quiz_out">
+                    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
+                        <a href="home_delete.php" class="btn btn-border-gradient">
+                            <span class="btn-text-gradient--gold">投稿問題の削除</span>
+                        </a>
+                    </div>
+                </div>
+
+
+        </div>
     </div>
 
 
