@@ -28,7 +28,9 @@
     <button class="answer_btn" id="answer_btn" onclick="answer()">答えを表示</button>
 
     <div id="output_answer" style="display: none;">
-        <h2><?php echo $result['answer']; ?></h2>
+        <h2 id="answer_text"><?php echo $result['answer']; ?></h2>
+    </div>
+
     </div>
 
     <footer>

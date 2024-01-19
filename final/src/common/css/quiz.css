@@ -123,9 +123,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-
-#output_answer{
-    display: none;
-    width: 80%;
-    height: auto;
+#answer_text{
+    color: rgb(174, 163, 39);
 }

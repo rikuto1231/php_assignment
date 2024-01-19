@@ -32,9 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                 echo '<h2>'.$result['content'].'</h2>';
             echo'</div>';
 
- 
-            
-        echo '</div>';
 
 
 
