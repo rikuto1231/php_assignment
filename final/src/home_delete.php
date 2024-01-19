@@ -19,7 +19,7 @@
     <h1>削除画面</h1>
 <?
 
-require 'DB.php';
+require '/common/php/DB.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
