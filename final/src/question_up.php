@@ -18,7 +18,7 @@
     </header>
 
 
-    <form method="post" action="common/php/insert_question.php" enctype="multipart/form-data">
+    <form method="post" action="common/php/quiz_up.php" enctype="multipart/form-data">
 
         <label for="title">タイトル:</label>
         <input type="text" name="title" required><br>

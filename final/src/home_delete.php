@@ -16,19 +16,10 @@
         <?php require 'common/php/header.php'; ?>
     </header>
 
-    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-        <a href="question_up.php" class="btn btn-border-gradient">
-            <span class="btn-text-gradient--gold">投稿問題の更新</span>
-        </a>
-    </div>
+    <h1>削除画面</h1>
 
-    <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-        <a href="home_delete.php" class="btn btn-border-gradient">
-            <span class="btn-text-gradient--gold">投稿問題の削除</span>
-        </a>
-    </div>
-
-
+    <!-- 問題表示部分 -->
+    <?php require 'common/php/quiz_user.php'; ?>
 
 
     <footer>
