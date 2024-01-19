@@ -1,4 +1,4 @@
-<?php 
+<?php session_start();
 
 
 // heder内の要素を出力
@@ -42,5 +42,6 @@ echo '    <!-- 問題検索部分 -->
     </div>
 </div>';
 
+session_write_close();
 
 ?>

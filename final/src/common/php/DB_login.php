@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 
 
 require 'DB.php';
@@ -30,10 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             // ログイン後の遷移先にリダイレクト
+            session_write_close();
             header('Location: /php_assignment/final/src/home.php');
             exit();
             
         } else {
+            session_write_close();
             // ログイン失敗時の処理
             echo "メールアドレスまたはパスワードが正しくありません。";
         }
