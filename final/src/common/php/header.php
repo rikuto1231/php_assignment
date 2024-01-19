@@ -1,5 +1,6 @@
-<?php session_start();
-
+<?php
+// header.php などのファイルでセッションを開始
+session_start();
 
 // heder内の要素を出力
 
@@ -12,24 +13,18 @@ echo '</div>';
 //headerの2層目。メニュー部分
 echo '<div id="header_center">';
 
-    echo '<div id="header_in_left">';
+echo '<div id="header_in_left">';
+echo '<p>ルール確認</p>';
+echo '</div>';
 
-    echo '<p>ルール確認</p>';
+// 2層目の中央div
+echo '<div id="header_in_center">';
+echo '<a href="#"><img id="signup_img" src="common/img/logo1.png" width="150px" height="150px"></a>';
+echo '</div>';
 
-    echo '</div>';
-
-    // 2層目の中央div
-    echo '<div id="header_in_center">';
-
-    echo '<a href="#"><img id="signup_img" src="common/img/logo1.png" width="150px" height="150px"></a>';
-
-    echo '</div>';
-
-    echo '<div id="header_in_right">';
-
-    echo '<a href=question.php><p>出題する</p></a>';
-
-    echo '</div>';
+echo '<div id="header_in_right">';
+echo '<a href=question.php><p>出題する</p></a>';
+echo '</div>';
 
 echo '</div>';
 
@@ -42,6 +37,6 @@ echo '    <!-- 問題検索部分 -->
     </div>
 </div>';
 
+// セッションを終了
 session_write_close();
-
 ?>
