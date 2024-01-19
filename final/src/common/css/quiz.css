@@ -124,5 +124,11 @@ body {
 }
 
 #answer_text{
-    color: rgb(174, 163, 39);
+    color: rgb(255 234 0);
+}
+
+#output_answer{
+    background-color:#000000cf;
+    width:auto;
+    height:auto;
 }
