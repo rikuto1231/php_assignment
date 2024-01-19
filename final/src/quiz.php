@@ -1,3 +1,4 @@
+<? session_start();?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,7 +9,7 @@
     <title>水平思考クイズサイト</title>
 </head>
 <body>
-<? session_start();?>
+
 
 
     <header>
