@@ -1,8 +1,6 @@
 <?php
-// header.php などのファイルでセッションを開始
-
-
-// heder内の要素を出力
+ob_start(); // 出力バッファリング開始
+session_start(); // セッション開始
 
 // 上別色用の部分化divを設定,名前とマイページ要素検討。
 echo '<div id="header_top">
@@ -12,7 +10,6 @@ echo '</div>';
 
 //headerの2層目。メニュー部分
 echo '<div id="header_center">';
-
 echo '<div id="header_in_left">';
 echo '<p>ルール確認</p>';
 echo '</div>';
@@ -37,6 +34,5 @@ echo '    <!-- 問題検索部分 -->
     </div>
 </div>';
 
-// セッションを終了
-
+ob_end_flush(); // バッファを出力してバッファリング終了
 ?>
