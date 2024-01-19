@@ -40,6 +40,6 @@
     <!-- 読み込み方式 -->
     </footer>
 
-    <? session_write_close();?>
+
 </body>
 </html>

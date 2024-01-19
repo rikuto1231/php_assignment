@@ -37,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // 登録が成功したら遷移先にリダイレクト
         header('Location: /php_assignment/final/src/login.php');
+        exit();
     } catch (PDOException $e) {
         die("データベースエラー: " . $e->getMessage());
     }
