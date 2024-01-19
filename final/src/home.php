@@ -13,6 +13,7 @@
 
     <header>
     <!-- 読み込み方式 -->
+        <? session_start();?>
         <?php require 'common/php/header.php'; ?>
     </header>
 
