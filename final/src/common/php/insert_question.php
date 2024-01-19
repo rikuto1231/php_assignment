@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $img_path = "";
 
     if (isset($_FILES["image"]) && $_FILES["image"]["error"] == 0) {
-        $uploadDir = "uploads/"; // アップロード先のディレクトリ
+        $uploadDir = "../img/"; // アップロード先のディレクトリ
         $uploadFile = $uploadDir . basename($_FILES["image"]["name"]);
 
         // ファイルをアップロード
