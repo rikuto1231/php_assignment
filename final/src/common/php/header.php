@@ -2,8 +2,8 @@
 
 
 // 上別色用の部分化divを設定,名前とマイページ要素検討。
-echo '<div id="header_top">
-<p>マイページ</p>';
+echo '<div id="header_top">';
+echo '<p><a href="mypage.php">マイページ</a></p>';
 echo '<p>名前様</p>';
 echo '</div>';
 
