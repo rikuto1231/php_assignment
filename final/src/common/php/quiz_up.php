@@ -43,7 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $updateStmt->bindParam(":user_id", $user_id);
         $updateStmt->execute();
 
-        echo "問題が更新されました！";
+        header('Location: /php_assignment/final/src/mypage.php');
+        exit();
     } catch (PDOException $e) {
         echo "エラー: " . $e->getMessage();
     } finally {
