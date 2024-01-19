@@ -8,7 +8,6 @@
     <title>水平思考クイズサイト</title>
 </head>
 <body>
-    <?php session_start(); ?>
 
 
     <header>
