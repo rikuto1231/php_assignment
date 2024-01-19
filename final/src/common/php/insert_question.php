@@ -41,7 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bindParam(":img_path", $img_path);
         $stmt->execute();
 
-        echo "問題が登録されました！";
+        header('Location: /php_assignment/final/src/home.php');
+        exit();
     } catch (PDOException $e) {
         echo "エラー: " . $e->getMessage();
     } finally {

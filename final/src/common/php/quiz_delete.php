@@ -33,7 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                 $stmt->bindParam(":question_id", $question_id);
                 $stmt->execute();
 
-                echo "問題が削除されました！";
+                header('Location: /php_assignment/final/src/mypage.php');
+                exit();
 
             } catch (PDOException $e) {
                 echo "エラー: " . $e->getMessage();

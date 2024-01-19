@@ -124,11 +124,11 @@ body {
 }
 
 #answer_text{
-    color: rgb(255 234 0);
+    color: rgba(229, 211, 18, 0.868);
 }
 
 #output_answer{
-    background-color:#000000cf;
+    background-color:#1716169c;
     width:auto;
     height:auto;
 }
