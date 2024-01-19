@@ -32,11 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                 echo '<h2>'.$result['content'].'</h2>';
             echo'</div>';
 
-            echo '<button class="answer_btn" onclick="answer()">答えを表示</button>';
-
-            echo '<div id="output_answer">';
-                echo '<h2 id="answer">'.$result['answer'].'</h2>';
-            echo '</div>';
+ 
+            
         echo '</div>';
 
 
